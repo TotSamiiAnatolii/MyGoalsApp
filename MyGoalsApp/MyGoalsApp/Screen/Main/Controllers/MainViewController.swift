@@ -264,9 +264,13 @@ final class MainViewController: UIViewController {
     }
     
     private func prepareForTransition() {
- //
-        //
-        //
+        let createGoalsVC = CreateGoalController()
+        
+        createGoalsVC.onFinish = { model in
+            self.arrayMyGoals.insert(model, at: 0)
+        }
+        self.navigationController?.present(createGoalsVC, animated: true)
+        selectNotes = .goals
     }
     
     @objc func editButtonAction() {
