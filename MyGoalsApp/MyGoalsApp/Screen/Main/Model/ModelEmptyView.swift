@@ -10,7 +10,7 @@ import UIKit
 struct ModelEmptyMainView {
     let image: UIImage = Images.arrowDown
     let title: String = "Create your first goal"
-    let subTitle: String = "you don't have completed goals yet"
+    let subTitle: String = "move towards your goal"
 }
 
 struct ModelEmtyCompletionView {

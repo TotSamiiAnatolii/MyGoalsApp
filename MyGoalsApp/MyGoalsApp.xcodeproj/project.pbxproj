@@ -10,7 +10,7 @@
 		18907B8829CF011700691F78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18907B8729CF011700691F78 /* AppDelegate.swift */; };
 		18907B8A29CF011700691F78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18907B8929CF011700691F78 /* SceneDelegate.swift */; };
 		18907B8C29CF011700691F78 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18907B8B29CF011700691F78 /* MainViewController.swift */; };
-		18907B9229CF011700691F78 /* MyGoalsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18907B9029CF011700691F78 /* MyGoalsApp.xcdatamodeld */; };
+		18907B9229CF011700691F78 /* MyGoalApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18907B9029CF011700691F78 /* MyGoalApp.xcdatamodeld */; };
 		18907B9429CF011E00691F78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18907B9329CF011E00691F78 /* Assets.xcassets */; };
 		18907B9729CF011E00691F78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18907B9529CF011E00691F78 /* LaunchScreen.storyboard */; };
 		18907BA229CF011F00691F78 /* MyGoalsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18907BA129CF011F00691F78 /* MyGoalsAppTests.swift */; };
@@ -532,7 +532,7 @@
 				18907C7629CF10A600691F78 /* MyGoalApp+CoreDataProperties.swift */,
 				18907C7729CF10A600691F78 /* TransformedColors+CoreDataClass.swift */,
 				18907C7829CF10A600691F78 /* TransformedColors+CoreDataProperties.swift */,
-				18907B9029CF011700691F78 /* MyGoalsApp.xcdatamodeld */,
+				18907B9029CF011700691F78 /* MyGoalApp.xcdatamodeld */,
 				18907C8F29CF1F4B00691F78 /* CoreDataManager.swift */,
 			);
 			path = Services;
@@ -779,7 +779,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18907C7C29CF10A600691F78 /* MyGoalApp+CoreDataProperties.swift in Sources */,
-				18907B9229CF011700691F78 /* MyGoalsApp.xcdatamodeld in Sources */,
+				18907B9229CF011700691F78 /* MyGoalApp.xcdatamodeld in Sources */,
 				18907C0529CF07E000691F78 /* HeaderView.swift in Sources */,
 				18907CB329CF237800691F78 /* ModelNameGoalsCell.swift in Sources */,
 				18907C1629CF08CD00691F78 /* ModelMyGoalsCell.swift in Sources */,
@@ -1240,13 +1240,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		18907B9029CF011700691F78 /* MyGoalsApp.xcdatamodeld */ = {
+		18907B9029CF011700691F78 /* MyGoalApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				18907B9129CF011700691F78 /* MyGoalsApp.xcdatamodel */,
 			);
 			currentVersion = 18907B9129CF011700691F78 /* MyGoalsApp.xcdatamodel */;
-			path = MyGoalsApp.xcdatamodeld;
+			path = MyGoalApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
