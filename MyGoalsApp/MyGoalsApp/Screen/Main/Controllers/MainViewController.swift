@@ -355,6 +355,12 @@ final class MainViewController: UIViewController {
             }
         }
     }
+    
+    private func implementationRealizationGoalVC(index: Int) {
+        let realizationGoalVC = RealizationGoalController(model: arrayMyGoals[index])
+        realizationGoalVC.delegate = self
+        self.navigationController?.pushViewController(realizationGoalVC, animated: true)
+    }
 }
 extension MainViewController: UICollectionViewDelegate {
 
@@ -365,9 +371,7 @@ extension MainViewController: UICollectionViewDelegate {
         switch section {
             
         case .main:
-            let realizationGoalVC = RealizationGoalController(model: arrayMyGoals[indexPath.row])
-            realizationGoalVC.delegate = self
-            self.navigationController?.pushViewController(realizationGoalVC, animated: true)
+            implementationRealizationGoalVC(index: indexPath.row)
 
         case .completion:
             print("completion")
