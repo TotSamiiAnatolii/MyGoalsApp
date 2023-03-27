@@ -365,9 +365,10 @@ extension MainViewController: UICollectionViewDelegate {
         switch section {
             
         case .main:
-            print("main")
+            let realizationGoalVC = RealizationGoalController(model: arrayMyGoals[indexPath.row])
+            realizationGoalVC.delegate = self
+            self.navigationController?.pushViewController(realizationGoalVC, animated: true)
 
-            
         case .completion:
             print("completion")
 

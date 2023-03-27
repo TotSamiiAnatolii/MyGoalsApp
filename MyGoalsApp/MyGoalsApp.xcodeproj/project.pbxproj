@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1880C0A429D213D8002C054A /* RealizationGoalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1880C0A329D213D8002C054A /* RealizationGoalController.swift */; };
+		1880C0A629D21404002C054A /* RealizationGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1880C0A529D21404002C054A /* RealizationGoalView.swift */; };
+		1880C0A829D2145D002C054A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1880C0A729D2145D002C054A /* GradientView.swift */; };
+		1880C0AB29D214FD002C054A /* RealizationGoalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1880C0AA29D214FD002C054A /* RealizationGoalViewModel.swift */; };
 		18907B8829CF011700691F78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18907B8729CF011700691F78 /* AppDelegate.swift */; };
 		18907B8A29CF011700691F78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18907B8929CF011700691F78 /* SceneDelegate.swift */; };
 		18907B8C29CF011700691F78 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18907B8B29CF011700691F78 /* MainViewController.swift */; };
@@ -176,6 +180,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1880C0A329D213D8002C054A /* RealizationGoalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealizationGoalController.swift; sourceTree = "<group>"; };
+		1880C0A529D21404002C054A /* RealizationGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealizationGoalView.swift; sourceTree = "<group>"; };
+		1880C0A729D2145D002C054A /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		1880C0AA29D214FD002C054A /* RealizationGoalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealizationGoalViewModel.swift; sourceTree = "<group>"; };
 		18907B8429CF011700691F78 /* MyGoalsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGoalsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18907B8729CF011700691F78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18907B8929CF011700691F78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -266,6 +274,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1880C0A029D2135F002C054A /* RealizationGoal */ = {
+			isa = PBXGroup;
+			children = (
+				1880C0A129D213AE002C054A /* Controller */,
+				1880C0A229D213B5002C054A /* Views */,
+				1880C0A929D214E4002C054A /* Model */,
+			);
+			path = RealizationGoal;
+			sourceTree = "<group>";
+		};
+		1880C0A129D213AE002C054A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1880C0A329D213D8002C054A /* RealizationGoalController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1880C0A229D213B5002C054A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1880C0A529D21404002C054A /* RealizationGoalView.swift */,
+				1880C0A729D2145D002C054A /* GradientView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1880C0A929D214E4002C054A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1880C0AA29D214FD002C054A /* RealizationGoalViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		18907B7B29CF011700691F78 = {
 			isa = PBXGroup;
 			children = (
@@ -331,6 +374,7 @@
 			children = (
 				18907BBD29CF01CC00691F78 /* Main */,
 				18907C9829CF215D00691F78 /* CreateGoal */,
+				1880C0A029D2135F002C054A /* RealizationGoal */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -786,6 +830,7 @@
 				18907C2629CF09F800691F78 /* EmptyDiffableDataSource.swift in Sources */,
 				18907C2B29CF0A5B00691F78 /* EnumFroProject.swift in Sources */,
 				18907CCB29CF245200691F78 /* ModelCreateGoalView.swift in Sources */,
+				1880C0A829D2145D002C054A /* GradientView.swift in Sources */,
 				18907BF329CF069900691F78 /* AddButton.swift in Sources */,
 				18907BC929CF041700691F78 /* MainView.swift in Sources */,
 				18907C0129CF079B00691F78 /* CompletionCell.swift in Sources */,
@@ -805,6 +850,7 @@
 				18907BFD29CF076000691F78 /* MyGoalsCell.swift in Sources */,
 				18907CA629CF22B300691F78 /* NameGoalCell.swift in Sources */,
 				18907BC529CF039900691F78 /* EmptyMainView.swift in Sources */,
+				1880C0A429D213D8002C054A /* RealizationGoalController.swift in Sources */,
 				18907CA129CF222500691F78 /* CreateGoalView.swift in Sources */,
 				18907C7F29CF10A600691F78 /* TransformedColors+CoreDataClass.swift in Sources */,
 				18907CB729CF239C00691F78 /* OptionsCell.swift in Sources */,
@@ -821,7 +867,9 @@
 				18907C0E29CF086C00691F78 /* ProtocolsForProject.swift in Sources */,
 				18907C9529CF203900691F78 /* Formatter.swift in Sources */,
 				18907CAF29CF234A00691F78 /* UITextField+MyStyle.swift in Sources */,
+				1880C0A629D21404002C054A /* RealizationGoalView.swift in Sources */,
 				18907BDD29CF054A00691F78 /* Images.swift in Sources */,
+				1880C0AB29D214FD002C054A /* RealizationGoalViewModel.swift in Sources */,
 				18907CD929CF254700691F78 /* ColorCell.swift in Sources */,
 				18907CAB29CF231000691F78 /* MyTextField.swift in Sources */,
 				18907BCD29CF046A00691F78 /* Fonts.swift in Sources */,

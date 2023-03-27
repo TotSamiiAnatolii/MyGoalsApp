@@ -71,3 +71,8 @@ enum TextFieldsType: String {
     case step =  "Шаг"
     case check = "Счет"
 }
+
+enum MainButton {
+    case addButton
+    case finished
+}
