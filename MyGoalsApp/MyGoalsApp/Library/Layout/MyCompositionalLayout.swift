@@ -34,7 +34,7 @@ class MyCompositionalLayout {
         let itemsSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0), heightDimension: .fractionalHeight(1.0))
         
         let items = NSCollectionLayoutItem(layoutSize: itemsSize)
-        
+    
         let groupsSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0), heightDimension: .fractionalWidth(0.36))
         
         let groups = NSCollectionLayoutGroup.horizontal(layoutSize: groupsSize, subitem: items, count: 1)
