@@ -9,5 +9,4 @@ import Foundation
 
 struct ModelMain2View {
     let onAction: (()-> Void)?
-    
 }

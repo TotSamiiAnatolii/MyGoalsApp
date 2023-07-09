@@ -31,7 +31,7 @@ enum Colors {
     
     static let shadowColor = #colorLiteral(red: 0.9192931218, green: 0.9015458062, blue: 0.9502355146, alpha: 1).cgColor
 
-    static let circularProgress = #colorLiteral(red: 0.9675037381, green: 0.9675037381, blue: 0.9675037381, alpha: 1).cgColor
+    static let circularProgress = #colorLiteral(red: 0.207503107, green: 0.723515701, blue: 0.9675037381, alpha: 1).cgColor
     
     static let noActivSaveButton = #colorLiteral(red: 0.8515508448, green: 0.8515508448, blue: 0.8515508448, alpha: 1).withAlphaComponent(0.5)
     
